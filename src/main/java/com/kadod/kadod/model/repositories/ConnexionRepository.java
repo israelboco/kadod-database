@@ -1,7 +1,8 @@
 package com.kadod.kadod.model.repositories;
 
-import com.kadod.fingerprint.model.entities.Connexion;
-import com.kadod.fingerprint.model.entities.User;
+
+import com.kadod.kadod.model.entities.Connexion;
+import com.kadod.kadod.model.entities.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

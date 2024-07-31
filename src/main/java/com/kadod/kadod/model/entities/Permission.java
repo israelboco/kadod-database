@@ -1,6 +1,6 @@
 package com.kadod.kadod.model.entities;
 
-import com.kadod.fingerprint.model.enums.TypePermissionEnum;
+import com.kadod.kadod.model.enums.TypePermissionEnum;
 
 import javax.persistence.*;
 import java.io.Serializable;

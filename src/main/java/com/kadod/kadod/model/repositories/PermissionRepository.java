@@ -1,7 +1,7 @@
 package com.kadod.kadod.model.repositories;
 
-import com.kadod.fingerprint.model.entities.Employee;
-import com.kadod.fingerprint.model.entities.Permission;
+import com.kadod.kadod.model.entities.Employee;
+import com.kadod.kadod.model.entities.Permission;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

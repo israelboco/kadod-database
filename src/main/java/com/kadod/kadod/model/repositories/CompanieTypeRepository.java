@@ -1,6 +1,6 @@
 package com.kadod.kadod.model.repositories;
 
-import com.kadod.fingerprint.model.entities.CompanieType;
+import com.kadod.kadod.model.entities.CompanieType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

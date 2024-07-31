@@ -1,7 +1,7 @@
 package com.kadod.kadod.model.repositories;
 
-import com.kadod.fingerprint.model.entities.Employee;
-import com.kadod.fingerprint.model.entities.PresenceEmployee;
+import com.kadod.kadod.model.entities.Employee;
+import com.kadod.kadod.model.entities.PresenceEmployee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,7 @@
 package com.kadod.kadod.model.repositories;
 
-import com.kadod.fingerprint.model.entities.EnrollInfo;
-import com.kadod.fingerprint.model.entities.Machine;
+import com.kadod.kadod.model.entities.EnrollInfo;
+import com.kadod.kadod.model.entities.Machine;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
