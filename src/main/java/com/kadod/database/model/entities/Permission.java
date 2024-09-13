@@ -29,6 +29,10 @@ public class Permission implements Serializable {
     private Boolean accepted;
     @Column(name = "description")
     private String description;
+    @Column(name = "objet")
+    private String objet;
+    @Column(name = "path")
+    private String path;
 
     public Integer getId() {
         return id;

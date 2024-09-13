@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 public interface PersonRepository extends JpaRepository<Person, Integer> {
 
     Person findOneById(Integer id);
+    Person findOneByNameIgnoreCase(String Name);
 
 }
