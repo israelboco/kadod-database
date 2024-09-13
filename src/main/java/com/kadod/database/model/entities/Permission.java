@@ -89,4 +89,20 @@ public class Permission implements Serializable {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    public String getObjet() {
+        return objet;
+    }
+
+    public void setObjet(String objet) {
+        this.objet = objet;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
 }
