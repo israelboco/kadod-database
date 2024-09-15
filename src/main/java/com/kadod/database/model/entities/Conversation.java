@@ -26,6 +26,8 @@ public class Conversation implements Serializable {
     @JoinColumn(name = "row_id", referencedColumnName = "id")
     @ManyToOne
     private RowConversation row;
+    private Boolean read;
+    @Column(name = "read")
 
     public Integer getId() {
         return id;
@@ -73,5 +75,13 @@ public class Conversation implements Serializable {
 
     public void setRow(RowConversation row) {
         this.row = row;
+    }
+
+    public Boolean getRead() {
+        return read;
+    }
+
+    public void setRead(Boolean read) {
+        this.read = read;
     }
 }

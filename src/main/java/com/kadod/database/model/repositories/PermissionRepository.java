@@ -17,9 +17,9 @@ public interface PermissionRepository extends JpaRepository<Permission, Integer>
     Page<Permission> findByEmployee(Employee employee, Pageable pageable);
     Page<Permission> findByEmployeeIn(List<Employee> employees, Pageable pageable);
     List<Permission> findByEmployeeAndAccepted(Employee employee, Boolean accepted);
-    Page<Permission> findByEmployeeAndAccepted(Employee employee, Boolean accepted, Pageable pageable);
-    Page<Permission> findByEmployeeAndAcceptedIsNull(Employee employee, Pageable pageable);
-    Page<Permission> findByEmployeeInAndAccepted(List<Employee> employees, Boolean accepted, Pageable pageable);
-    Page<Permission> findByEmployeeInAndAcceptedIsNull(List<Employee> employees, Pageable pageable);
+    Page<Permission> findByEmployeeAndAcceptedOrderByIdDesc(Employee employee, Boolean accepted, Pageable pageable);
+    Page<Permission> findByEmployeeAndAcceptedIsNullOrderByIdDesc(Employee employee, Pageable pageable);
+    Page<Permission> findByEmployeeInAndAcceptedOrderByIdDesc(List<Employee> employees, Boolean accepted, Pageable pageable);
+    Page<Permission> findByEmployeeInAndAcceptedIsNullOrderByIdDesc(List<Employee> employees, Pageable pageable);
 
 }
